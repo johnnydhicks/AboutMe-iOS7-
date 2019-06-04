@@ -19,29 +19,36 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="opC-cJ-0sM">
-                                <rect key="frame" x="31" y="71" width="50" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="31" y="71" width="53.5" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hobbies:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wi5-nI-f7U">
-                                <rect key="frame" x="31" y="107" width="69" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="31" y="107" width="74" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nCf-h6-HNY">
-                                <rect key="frame" x="108" y="107" width="42" height="21"/>
+                                <rect key="frame" x="113" y="107.5" width="42" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="szN-hb-98t">
-                                <rect key="frame" x="89" y="71" width="42" height="21"/>
+                                <rect key="frame" x="92.5" y="71.5" width="42" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OdU-p5-bpb">
+                                <rect key="frame" x="144.5" y="807" width="125" height="30"/>
+                                <state key="normal" title="Introduce Yourself"/>
+                                <connections>
+                                    <action selector="introduceSelfButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bDi-5H-dTS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -50,8 +57,10 @@
                             <constraint firstItem="opC-cJ-0sM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="27" id="FV2-Qm-2ap"/>
                             <constraint firstItem="nCf-h6-HNY" firstAttribute="leading" secondItem="wi5-nI-f7U" secondAttribute="trailing" constant="8" symbolic="YES" id="XU5-Fg-UXU"/>
                             <constraint firstItem="opC-cJ-0sM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="31" id="esm-E3-T1F"/>
+                            <constraint firstItem="OdU-p5-bpb" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="gTB-Xe-7kw"/>
                             <constraint firstItem="opC-cJ-0sM" firstAttribute="leading" secondItem="wi5-nI-f7U" secondAttribute="leading" id="hZt-Pe-1ba"/>
                             <constraint firstItem="szN-hb-98t" firstAttribute="leading" secondItem="opC-cJ-0sM" secondAttribute="trailing" constant="8" symbolic="YES" id="lKU-X9-EJd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="OdU-p5-bpb" secondAttribute="bottom" constant="25" id="naE-35-HZv"/>
                             <constraint firstItem="wi5-nI-f7U" firstAttribute="top" secondItem="opC-cJ-0sM" secondAttribute="bottom" constant="15" id="vNg-wN-AEk"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

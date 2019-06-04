@@ -16,12 +16,17 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        nameLabel.text = nil
+        hobbiesLabel.text = nil
+    }
+    
+    // MARK: - IBActions
+    @IBAction func introduceSelfButtonTapped(_ sender: Any) {
+        
         nameLabel.text = "Johnny Hicks"
         hobbiesLabel.text = "Basketball, Frisbee, Coding, Running"
     }
     
-    // MARK: - IBActions
-
 
 }
 
