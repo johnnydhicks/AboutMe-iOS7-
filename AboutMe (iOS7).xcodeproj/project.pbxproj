@@ -22,6 +22,7 @@
 		388EEBDE22A6CF0F001B220E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		388EEBE122A6CF0F001B220E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		388EEBE322A6CF0F001B220E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388EEBEA22A6E486001B220E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 			children = (
 				388EEBD722A6CF0F001B220E /* AppDelegate.swift */,
 				388EEBD922A6CF0F001B220E /* ViewController.swift */,
+				388EEBEA22A6E486001B220E /* README.md */,
 				388EEBDB22A6CF0F001B220E /* Main.storyboard */,
 				388EEBDE22A6CF0F001B220E /* Assets.xcassets */,
 				388EEBE022A6CF0F001B220E /* LaunchScreen.storyboard */,
